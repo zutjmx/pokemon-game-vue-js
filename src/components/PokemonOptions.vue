@@ -1,5 +1,5 @@
 <template>
-  <dir class="options-container">
+  <div class="options-container">
     <ul>
       <li v-for="pokemon in pokemons" 
           :key="pokemon.id" 
@@ -7,7 +7,7 @@
         {{pokemon.name}}
       </li>
     </ul>
-  </dir>
+  </div>
 </template>
 
 <script>
