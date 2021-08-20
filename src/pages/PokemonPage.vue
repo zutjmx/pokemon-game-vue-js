@@ -56,6 +56,8 @@ export default {
           this.message = `Ooppsss, era => ${this.pokemon.name}`
         }
 
+        //console.log('Hola mundo.', this.showPokemon)
+
       },
       newGame() {
         this.showPokemon = false
